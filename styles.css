@@ -1,0 +1,280 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: red;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    margin-right: 40px;
+    font-size: 20px;
+
+}
+.navbar li a{
+    color: red;
+
+}
+.navbar button{
+    background-color: rgb(253, 10, 156);
+    color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 50px;
+}
+.design{
+    background-color: cadetblue;
+    height: 100vh;
+
+}
+h1{
+    text-align: center;
+}
+#a3{
+    color: violet;
+
+}
+.conpage{
+    background-color: aquamarine;
+
+}
+.skill{
+    background-color: chartreuse;
+    height: 100vh;
+
+}
+#b1{
+    margin: auto;
+    display: flex;
+    background-color: coral;
+    color: blue;
+
+}
+#b1 img{
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 250px;
+    width: 250px;
+}
+.a{
+    margin-left: 100px;
+}
+.Conlogo img{
+height: 80px;
+width: 80px;
+
+}
+.s p{
+    color: chocolate;
+    padding: 10px;
+    background-color: aqua;
+    font-size: 30px;
+    margin-left: 450px;
+    margin-top: 100px;
+    text-align: center;
+}
+.ex p{
+    color: chocolate;
+    padding: 10px;
+    background-color: aqua;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 600px;
+}
+.t{
+    background-color: palegreen;
+    height: 40vh;
+    color: rgb(58, 15, 185);
+    padding: 50px;
+}
+.t p{
+font-size: 30px;
+margin-left: 100px;
+margin-right: 60px;
+
+}
+.b{
+    background-color: blueviolet;
+    height: 100vh;
+
+}
+.b h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+.c{
+    background-color: rgba(18, 210, 190, 0.4);
+    width: 40%;
+    height: 70vh;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+.c label{
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+
+}
+.c input{
+    padding: 10px 30px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+
+}
+.c div{
+    margin-left: 150px;
+    margin-bottom: 15px;
+    width: 40%;
+
+}
+.d{
+    display: flex;
+}
+.submit-btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+
+}
+.google-map h1{
+    text-align: center;
+    color: white;
+    background-color: red;
+    margin: 0px;
+    letter-spacing: 20px;
+    padding: 10px;
+  }
+  .google-map iframe{
+    width: 100%;
+  }
+ #a{
+  background-color: orangered;
+  color: rgb(209, 209, 23);
+ }
+ #a p,#a h3,#a h5{
+  margin-left: 30px;
+ }
+ #b{
+  background-color: whitesmoke;
+ }
+ #b p,#b h3,#b h5{
+  margin-left: 400px;
+  color: blue;
+ }
+ #c{
+  background-color: green;
+ }
+ #c p,#c h3,#c h5{
+  margin-left: 650px;
+  color: rgb(37, 2, 24);
+ }
+
+.images{
+width: 45%;
+height: 80%;
+position: absolute;
+bottom: 0;
+right: 100px;
+}
+.images img{
+height: 80%;
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+transition: bottom 1s,left 1s;
+}
+.images:hover .shape{
+bottom: 40px;
+}
+.images:hover .boy{
+left: 45%;
+}
+
+.images .shape{
+height: 500px;
+width: 600px;
+}
+.para{
+margin-left: 8%;
+margin-top: 15%;
+}
+.para h1{
+font-size: 30px;
+color: #212121;
+margin-bottom: 20px;
+margin-right: 550px;
+}
+span{
+color: orange;
+}
+.para p{
+color: #555;
+line-height: 22px;
+}
+
+.para a{
+background-color: rgb(40, 25, 179);
+border-radius: 10px;
+margin-left: 30px;
+padding: 10px 15px;
+display: inline-block;
+}
+.jatra{
+    background: radial-gradient(circle, violet, indigo, blue, green, yellow, orange,red);
+  }
+  .jatra p{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: inherit;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    color: white;
+  }
+  
+  .bc{
+    background-color: cornflowerblue;
+  }
+  
+  .footer{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+    margin-top: 75px;
+    }
+    
+    .footer a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    }
+    .mobile{
+        background: radial-gradient(circle, orange, pink, chocolate);
+    }
+    .images .shape{
+        height: 200px;
+        width: 400px;
+
+    }
+    .images .boy{
+        height: 250px;
+        width: 200px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        margin-left: 70px;
+    }
